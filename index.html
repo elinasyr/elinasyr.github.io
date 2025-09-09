@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elina Syrri's Personal Website</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Screenshot 2025-09-10 at 12.05.44 AM.png" alt="Elina Syrri" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Elina Syrri">Elina Syrri</h1>
+
+          <p class="title">AI Engineer &<br>Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:elinasyrr@gmail.com" class="contact-link">elinasyrr@gmail.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <address>+30 6936941656</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/elina-syrri/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/elinasyr" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Volunteering</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm an AI Engineer and Researcher at the Greek National Centre of Scientific Research 'Demokritos', specializing in neurosymbolic AI and machine learning applications in biomedical research. I hold a Master's degree in Electrical and Computer Engineering from the National Technical University of Athens.<br><br>
+            My work focuses on developing hybrid ML approaches that combine neural networks with symbolic reasoning for complex event recognition, cancer progression modeling, and forecasting applications.
+          </p>
+        </section>
+
+        <header>
+          <h3 class="h3 service-title">News & Announcements</h3>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <ul class="regular-list">
+              <li>Currently working on a paper for Nature Machine Intelligence on interpretable hybrid ML approaches for cancer progression modeling, in collaboration with Barcelona Supercomputing Center.</li>
+              <li>My startup Calt won multiple innovation awards including 2nd place at Hack2BRIDGE (€3,000), 3rd place at Innovation Attica, and 2nd place at Ennovation Accelerator (€1,000).</li>
+              <li>Completed my M.Eng. thesis on "Exploration and Classification of Breast Cancer Stages using Genomic Data" achieving 80% F1-macro score with ML models and explainability metrics.</li>
+            </ul>
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">In a Nutshell: What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/brain.svg" alt="brain icon" width="40" style="filter: invert(1);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cancer Progression Modeling with Hybrid ML</h4>
+                <p class="service-item-text">Currently developing interpretable hybrid ML approaches to model cancer progression in synthetic temporal gene expression datasets, in collaboration with the Barcelona Supercomputing Center. Paper in preparation for Nature Machine Intelligence.</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/network-icon.svg" alt="network icon" width="40" style="filter: invert(1);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Neurosymbolic AI for Complex Event Recognition</h4>
+
+                <p class="service-item-text">
+                  Developing neurosymbolic pipelines combining MLPs with HMMs for forecasting Covid-19 cases and implementing forward recognition frameworks using Neural Networks with DFAs for deadlock recognition from robotic trajectory data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="app icon" width="40" style="filter: invert(1);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Calt: AI-Powered Event Discovery Platform</h4>
+
+                <p class="service-item-text">
+                  Built an AI-driven recommendation system for cultural events with universal web scraper using LLMs. Won multiple awards: 2nd place Hack2BRIDGE (€3,000), 3rd place Innovation Attica, 2nd place Ennovation Accelerator. <a href="https://www.calt.gr/" target="_blank">Visit Calt</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/journal-medical.svg" alt="medical record icon" width="40" style="filter: invert(1);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Breast Cancer Classification using Genomic Data</h4>
+
+                <p class="service-item-text">
+                  Master's thesis achieving 80% F1-macro score using ML models and explainability metrics for single-cell RNA sequencing gene expression data. Focused on data-centric AI and handling imbalanced datasets.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="development icon" width="40" style="filter: invert(1);">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development & MLOps</h4>
+
+                <p class="service-item-text">
+                  Experience as Full Stack Engineer at Wealthyhood fintech startup and MLOps Engineer at Arrikto, integrating Python libraries for parallel computing in Kubeflow and developing financial data platforms.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- 
+          - affiliations
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Affiliations</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.demokritos.gr/" target="_blank">
+                <img src="./assets/images/ncsr.jpg" alt="NCSR Demokritos">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.ntua.gr/" target="_blank">
+                <img src="./assets/images/ntua.png" alt="NTUA">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> --> 
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.Eng. in Electrical and Computer Engineering</h4>
+
+              <span>Sep. 2018 — Jul. 2024</span>
+
+              <p class="timeline-text">
+                <a href="https://www.ntua.gr/" target="_blank">National Technical University of Athens</a><br>
+                GPA: 8.77/10.00 (joint B.Sc.-M.Eng. degree, 300 ECTS, Computer Science Major);<br>
+                <b>Thesis topic:</b> Exploration and Classification of Breast Cancer Stages using Genomic Data<br>
+                Advisor: G. Matsopoulos, G. Paliouras;<br>
+                Achieved 80% F1-macro score using ML models and explainability metrics for sc-RNA seq gene expression data. Focused on data-centric AI, handling imbalanced datasets, and dataset curation.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Engineer & Researcher</h4>
+
+              <span>Sep. 2024 — Present</span>
+
+              <p class="timeline-text">
+                <a href="https://www.demokritos.gr/" target="_blank">Greek National Centre of Scientific Research 'Demokritos'</a><br>
+                Complex Event Recognition Group - Supervisor: G. Paliouras<br>
+                Developing interpretable hybrid ML approaches for cancer progression modeling in collaboration with Barcelona Supercomputing Center. Working on neurosymbolic pipelines for Covid-19 forecasting and constraint satisfaction techniques in autoregressive models.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Engineer</h4>
+
+              <span>Sep. 2023 — Mar. 2024</span>
+
+              <p class="timeline-text">
+                <a href="https://wealthyhood.com/eu/" target="_blank">Wealthyhood Fintech Startup</a><br>
+                Shipped new features and fixed bugs daily using React frontend and TypeScript backend. Developed asset pages feature from scratch, providing real-time financial data insights similar to Yahoo Finance.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MLOps Engineer</h4>
+
+              <span>Jul. 2022 — Apr. 2023</span>
+
+              <p class="timeline-text">
+                <a href="https://www.arrikto.com/" target="_blank">Arrikto MLOps Startup</a><br>
+                Integrated Python Library "Dask" for parallel computing in Kubeflow, decreasing computation time for machine learning workflows in containerized environments. Proposed bug fixes for the Dask Kubernetes Operator.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Teaching Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lab Assistant - Operating Systems</h4>
+
+              <span>Spring 2023, Spring 2022</span>
+
+              <p class="timeline-text">
+                <a href="https://www.ntua.gr/" target="_blank">National Technical University of Athens</a><br>
+                Professors: N. Koziris, G. Goumas<br>
+                Assisted more than 100 undergraduate students with their course projects and guided them through operating systems concepts.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lab Assistant - Databases</h4>
+
+              <span>Spring 2023</span>
+
+              <p class="timeline-text">
+                <a href="https://www.ntua.gr/" target="_blank">National Technical University of Athens</a><br>
+                Professors: D. Tsoumakos, M. Koniaris<br>
+                Delivered weekly lab sessions covering SQL (Indexes, Constraints, Joins, Triggers, etc.) and assisted over 50 undergraduate students with their course projects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #VOLUNTEERING
+      -->
+
+      <article class="volunteering" data-page="volunteering">
+
+        <header>
+          <h2 class="h2 article-title">Volunteering Experience</h2>
+        </header>
+
+        <!--
+        - #Program Committee Member
+      -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Leadership & Community</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Member of the 1st SNFCC Youth Council</h4>
+
+              <span>Jan. 2023 — Dec. 2024</span>
+
+              <p class="timeline-text">
+                <a href="https://www.snfcc.org/" target="_blank">Stavros Niarchos Foundation Cultural Center</a><br>
+                Initiated and managed 20 projects focused on promoting social change through innovative and community-oriented actions. Implemented the SNFCC Slams format and presented on Artificial Intelligence topics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Curator & Head Organiser - TEDxNTUA</h4>
+
+              <span>Sep. 2021 — Sep. 2023</span>
+
+              <p class="timeline-text">
+                <a href="https://www.tedx-ntua.com/" target="_blank">TEDxNTUA</a><br>
+                Recruited and led a 28-member team, oversaw 60 volunteers, managed €40,000 budget and orchestrated events for 700 participants. Developed websites for TEDxNTUA events using Django, HTML/CSS/JavaScript, and launched the first-ever blog.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
